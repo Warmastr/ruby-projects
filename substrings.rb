@@ -1,4 +1,3 @@
-
 def substrings(string, dictionary)
   string = string.downcase.split
   hash = Hash.new(0)
@@ -13,5 +12,5 @@ def substrings(string, dictionary)
 end
 
 dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit", "part"]
-test = "howdy partner keep going down"
+test = "below"
 substrings(test, dictionary)
